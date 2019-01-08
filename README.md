@@ -26,7 +26,7 @@ if response.IsValid {
 }
 ```
 
-## Retries
+## Retry
 
 Because VIES service is very unreliable, this package will retry every failed request for a maximum of 4 times using an exponential backoff strategy.
 
@@ -40,7 +40,4 @@ This conversion only happens for the CountryCode field and not VAT Number. So a 
 
 ## Fork
 
-This package is a merge of [1] and [2], with some refactoring and other features. Thanks!
-
-[1] https://github.com/mattes/vat
-[2] https://github.com/dannyvankooten/vat
+This package is a merge of [mattes/vat](https://github.com/mattes/vat) and [dannyvankooten/vat](https://github.com/dannyvankooten/vat), with some refactoring and other features. Thanks!
